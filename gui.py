@@ -71,8 +71,6 @@ class dictWindow(Frame):
             for subdef in range(len(dictionary[definition])):
                 if subdef == 0:
                     outString += "(" + dictionary[definition][subdef] + "):\n"
-                elif subdef == len(dictionary[definition]) - 1:
-                    outString += "- " + dictionary[definition][subdef]
                 else:
                     outString += "- " + dictionary[definition][subdef] + "\n"
 
